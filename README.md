@@ -35,17 +35,6 @@ git clone https://github.com/your-repo/ethereum-smart-contract.git
 cd ethereum-smart-contract
 npm install
 ```
-Project Structure
-.
-├── contracts/              # Smart contracts
-│   ├── MyToken.sol         # ERC20 token implementation
-│   └── AdvancedContract.sol # Secure contract with advanced features
-├── migrations/             # Deployment scripts
-├── test/                   # Test files
-│   ├── MaliciousContract.sol # Attack simulation
-│   └── AdvancedContract.test.js # Test cases
-├── .solhint.json           # Linting configuration
-└── truffle-config.js       # Network configuration
 
 Usage
 Compile Contracts
