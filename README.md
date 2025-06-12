@@ -34,8 +34,9 @@ A complete implementation of secure Ethereum smart contracts with comprehensive 
 git clone https://github.com/your-repo/ethereum-smart-contract.git
 cd ethereum-smart-contract
 npm install
-Project Structure
-text
+```
+## Project Structure
+
 .
 ├── contracts/              # Smart contracts
 │   ├── MyToken.sol         # ERC20 token implementation
@@ -46,43 +47,52 @@ text
 │   └── AdvancedContract.test.js # Test cases
 ├── .solhint.json           # Linting configuration
 └── truffle-config.js       # Network configuration
+
 Usage
 Compile Contracts
-bash
+
+```bash
 truffle compile
+```
 Run Tests
 Start local blockchain:
 
 ```bash
 ganache-cli -d
+```
 Run tests:
 
 ```bash
 truffle test
+```
 Security Analysis
 Run Slither (static analysis):
 
 ```bash
 slither . --exclude-dependencies
+```
 Run Mythril (security analysis):
 
 ```bash
 docker run -v $(pwd):/contract mythril/myth analyze /contract/contracts/AdvancedContract.sol
+```
 Deployment
 Create a .env file with your secrets:
-
-text
+```
 MNEMONIC="your wallet mnemonic"
 INFURA_API_KEY="your infura key"
 ETHERSCAN_API_KEY="your etherscan key"
 Deploy to Ropsten testnet:
+```
 
 ```bash
 truffle migrate --network ropsten
+```
 Verify on Etherscan:
 
 ```bash
 truffle run verify MyToken AdvancedContract --network ropsten
+```
 Security Features Implemented
 Reentrancy guards
 
@@ -131,7 +141,7 @@ MIT
 ```
 Disclaimer
 This software is provided "as is" and without warranties of any kind. Use at your own risk. The developers are not liable for any damages resulting from the use of this code. Always get professional audits before deploying to mainnet.
-
+```
 
 This README includes:
 
