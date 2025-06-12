@@ -35,8 +35,7 @@ git clone https://github.com/your-repo/ethereum-smart-contract.git
 cd ethereum-smart-contract
 npm install
 ```
-## Project Structure
-
+Project Structure
 .
 ├── contracts/              # Smart contracts
 │   ├── MyToken.sol         # ERC20 token implementation
