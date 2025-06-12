@@ -31,7 +31,7 @@ A complete implementation of secure Ethereum smart contracts with comprehensive 
 ## Installation
 
 ```bash
-git clone https://github.com/your-repo/ethereum-smart-contract.git
+git clone https://github.com//ethereum-smart-contract.git
 cd ethereum-smart-contract
 npm install
 ```
